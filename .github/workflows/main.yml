@@ -1,0 +1,13 @@
+name: SCA - Dependency Check Caller
+on:
+  push:
+    branches-ignore:
+      - 'test1/*'
+  workflow_dispatch:
+  
+
+jobs:
+  eyhooo:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hellooooo"
