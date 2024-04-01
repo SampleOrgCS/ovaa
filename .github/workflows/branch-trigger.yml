@@ -1,4 +1,4 @@
-name: SCA - Dependency Check Caller
+name: triggersss
 on:
   push:
     branches-ignore:
