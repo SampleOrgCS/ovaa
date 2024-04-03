@@ -2,7 +2,7 @@ name: triggersss
 on:
   push:
     branches-ignore:
-      - 'test/*'
+      - 'test/**'
   workflow_dispatch:
   
 
